@@ -11,3 +11,5 @@ const asyncHandler = (fn: Controller) => (req: Request, res: Response, next: Nex
             })
         })
 }
+
+export default asyncHandler;
